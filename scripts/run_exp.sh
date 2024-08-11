@@ -2,8 +2,9 @@
 
 # $1: config name 1
 # $2: config name 2
+# $3: round number
 
-loop_count=10
+loop_count=$3
 
 
 for i in $(seq 1 $loop_count); do
