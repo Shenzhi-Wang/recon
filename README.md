@@ -4,6 +4,9 @@ Shenzhi Wang*, Chang Liu*, Zilong Zheng†, Siyuan Qi, Shuo Chen, Qisen Yang, An
 
 *: Equal Contribution, †: Corresponding Authors
 
+[Project Page](https://shenzhi-wang.github.io/avalon_recon/) | [Chinese Report by Synced (机器之心)](https://mp.weixin.qq.com/s/TglUikgaQe17XTP29cF9Uw) | [Chinese Report by AI Era (新智元)](https://mp.weixin.qq.com/s/lf5tMVLuWjRAzADLgxdVig) | [Chinese Report by QbitAI (量子位)](https://mp.weixin.qq.com/s/wxBzWBC_aCJPgpstrDBJgw)
+
+
 ## 1. Introduction
 
 This repository is the official source code for [*Boosting LLM Agents with Recursive Contemplation for Effective Deception Handling*](https://openreview.net/pdf?id=tw5yAlP1ne) (ACL 2024, Findings). 
@@ -11,8 +14,6 @@ This repository is the official source code for [*Boosting LLM Agents with Recur
 ![](imgs/teaser.png)
 
 The figure above is the illustrative framework of our proposed Recursive Contemplation (ReCon) with the Avalon game as an example. Specifically, ReCon presents a cognitive process with two stages: contemplation of formulation and refinement, each associated with first-order and second-order perspective transition, respectively.
-
-[Project Page](https://shenzhi-wang.github.io/avalon_recon/) | [Chinese Report by Synced (机器之心)](https://mp.weixin.qq.com/s/TglUikgaQe17XTP29cF9Uw) | [Chinese Report by AI Era (新智元)](https://mp.weixin.qq.com/s/lf5tMVLuWjRAzADLgxdVig) | [Chinese Report by QbitAI (量子位)](https://mp.weixin.qq.com/s/wxBzWBC_aCJPgpstrDBJgw)
 
 ## 2. Installation
 
