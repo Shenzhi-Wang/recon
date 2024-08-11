@@ -1,6 +1,8 @@
 # Recursive Contemplation (ReCon)
 
-Shenzhi Wang, Chang Liu, Zilong Zheng, Siyuan Qi, Shuo Chen, Qisen Yang, Andrew Zhao, Chaofei Wang, Shiji Song, Gao Huang
+Shenzhi Wang*, Chang Liu*, Zilong Zheng†, Siyuan Qi, Shuo Chen, Qisen Yang, Andrew Zhao, Chaofei Wang, Shiji Song, Gao Huang†
+
+*: Equal Contribution, †: Corresponding Authors
 
 ## 1. Introduction
 
@@ -8,13 +10,13 @@ This repository is the official source code for [*Boosting LLM Agents with Recur
 
 ![](imgs/teaser.png)
 
-The figure above is Tte illustrative framework of our proposed Recursive Contemplation (ReCon) with the Avalon game as an example. Specifically, ReCon presents a cognitive process with two stages: contemplation of formulation and refinement, each associated with first-order and second-order perspective transition, respectively.
+The figure above is the illustrative framework of our proposed Recursive Contemplation (ReCon) with the Avalon game as an example. Specifically, ReCon presents a cognitive process with two stages: contemplation of formulation and refinement, each associated with first-order and second-order perspective transition, respectively.
 
 ## 2. Installation
 
 The python version used in our experiments is `3.9.17`.
 
-```
+```bash
 git clone https://github.com/Shenzhi-Wang/recon.git
 cd recon
 pip install -r requirements.txt 
@@ -32,25 +34,25 @@ In the following, `N_ROUNDS` is the number of game repetitions.
 
 1. CoT (as the good side) v.s. CoT (as the evil side):
 
-```
+```bash
 ./scripts/run_exp.sh baseline_gpt baseline_gpt ${N_ROUNDS}
 ```
 
 2. ReCon (as the good side) v.s. CoT (as the evil side):
 
-```
+```bash
 ./scripts/run_exp.sh ours_gpt baseline_gpt ${N_ROUNDS}
 ```
 
 3. ReCon (as the good side) v.s. ReCon (as the evil side):
 
-```
+```bash
 ./scripts/run_exp.sh ours_gpt ours_gpt ${N_ROUNDS}
 ```
 
 4. CoT (as the good side) v.s. ReCon (as the evil side):
 
-```
+```bash
 ./scripts/run_exp.sh baseline_gpt ours_gpt ${N_ROUNDS}
 ```
 
