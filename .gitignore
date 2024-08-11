@@ -1,0 +1,6 @@
+__pycache__/
+.vscode/
+.idea/
+logs/
+*swp
+.DS_Store
