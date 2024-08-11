@@ -1,10 +1,6 @@
 # Recursive Contemplation (ReCon)
 
-Shenzhi Wang$^{1*}$, Chang Liu$^{3*}$, Zilong Zheng$^{2\dag}$, Siyuan Qi$^2$, Shuo Chen$^2$, Qisen Yang$^1$, Andrew Zhao$^1$, Chaofei Wang$^1$, Shiji Song$^1$, Gao Huang$^{1\dag}$  ($^*$: Equal Contribution, $^{\dag}$: Corresponding Authors)
-
-$^1$ Department of Automation, BNRist, Tsinghua University \
-$^2$ National Key Laboratory of General Artificial Intelligence, BIGAI \
-$^3$ Technical University of Munich
+Shenzhi Wang, Chang Liu, Zilong Zheng, Siyuan Qi, Shuo Chen, Qisen Yang, Andrew Zhao, Chaofei Wang, Shiji Song, Gao Huang
 
 ## 1. Introduction
 
