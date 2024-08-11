@@ -6,7 +6,7 @@ Shenzhi Wang*, Chang Liu*, Zilong Zheng†, Siyuan Qi, Shuo Chen, Qisen Yang, An
 
 ## 1. Introduction
 
-This repository is the official source code for [*Boosting LLM Agents with Recursive Contemplation for Effective Deception Handling*](https://openreview.net/forum?id=tw5yAlP1ne) (ACL 2024, Findings). 
+This repository is the official source code for [*Boosting LLM Agents with Recursive Contemplation for Effective Deception Handling*](https://openreview.net/pdf?id=tw5yAlP1ne) (ACL 2024, Findings). 
 
 ![](imgs/teaser.png)
 
