@@ -27,7 +27,7 @@ pip install -r requirements.txt
 
 ## 3. Usage
 
-### 3.1 Add you API key
+### 3.1 Add your API key
 
 Change the `gpt_api_key` in [api_config.py](api_config.py) to your own API key.
 
